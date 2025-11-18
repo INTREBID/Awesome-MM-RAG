@@ -13,29 +13,14 @@
 
 <div align="center">
 
-**[<a href="https://doi.org/10.36227/techrxiv.176341513.38473003/v1">TechRxiv</a>]** **[<a href="#">LinkedIn</a>]**
+**[<a href="https://doi.org/10.36227/techrxiv.176341513.38473003/v1">TechRxiv</a>]** 
 
 </div>
-
-
-
-
-<h1 align="center">Awesome Multimodal RAG</h1>
-
-<div align='center'>
-[![GitHub Stars](https://img.shields.io/github/stars/INTREBID/Awesome-MM-RAG?style=social)](https://github.com/INTREBID/Awesome-MM-RAG/stargazers)[![GitHub Watchers](https://img.shields.io/github/watchers/INTREBID/Awesome-MM-RAG?style=social)](https://github.com/INTREBID/Awesome-MM-RAG/watchers)[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
-</div>
-
-<div align="center">
-[<a href="https://www.techrxiv.org/doi/10.36227/techrxiv.176046306.66521015">TechRxiv</a>]
-</div>
-
-
 
 This repository is for our survey paper:
 
 > **[A Comprehensive Survey on Multimodal RAG: All Combinations of Modalities as Input and Output](https://doi.org/10.36227/techrxiv.176046306.66521015/v1)**  
-> *[Rui Zhang](https://www.ruizhang.info/)<sup>1</sup>, [Chen Liu](https://sdnylc.github.io/)<sup>1</sup>, [Yixin Su](https://ethanmock.github.io/yixinsu.github.io/)<sup>1</sup>, [Ruixuan Li](https://idc.hust.edu.cn/rxli/index.htm)<sup>1</sup>, , [Xuanjing Huang](https://xuanjing-huang.github.io/)<sup>2</sup>, [Xuelong Li](http://xuelongli.cn/en.php)<sup>3</sup>, Philip S. Yu<sup>2</sup>, *  
+> *[Rui Zhang](https://www.ruizhang.info/)<sup>1</sup>, [Chen Liu](https://sdnylc.github.io/)<sup>1</sup>, [Yixin Su](https://ethanmock.github.io/yixinsu.github.io/)<sup>1</sup>, [Ruixuan Li](https://idc.hust.edu.cn/rxli/index.htm)<sup>1</sup>, , [Xuanjing Huang](https://xuanjing-huang.github.io/)<sup>2</sup>, [Xuelong Li](http://xuelongli.cn/en.php)<sup>3</sup>, Philip S. Yu<sup>4</sup>, *  
 > <sup>1</sup>Huazhong University of Science and Technology, <sup>2</sup>Fudan University, <sup>3</sup>Institute of Artificial Intelligence (TeleAI) of China Telecom, <sup>4</sup>University of Illinois at Chicago 
 
 
