@@ -30,15 +30,6 @@ Facilitated by such a taxonomy, we identify four essential stages of the workflo
 
 To provide a holistic understanding and practical guidance for building MM-RAG systems, we also discuss training strategies and evaluation methods of MM-RAG. Finally, we discuss various MM-RAG applications and future directions.
 
-### Contributing
-
-The survey and the repository are **still work in progress** and will be updated regularly. 
-
-🙋 If you would like to include your paper in this survey and repository, please feel free to submit a pull request or open an issue with the paper's title and a brief summary highlighting its key techniques. You can also contact us via email. Please let us know if you find out a mistake or have any suggestions! We greatly appreciate your feedback regarding this repository or survey!
-
-🌟 If you find this resource helpful for your work, please consider citing our [research](#citation).
-
-
 ---
 
 <a name="readme-index"></a>
@@ -80,3 +71,23 @@ The survey and the repository are **still work in progress** and will be updated
 </p>
 
 ---
+
+### Contributing
+
+The survey and the repository are **still work in progress** and will be updated regularly. 
+
+🙋 If you would like to include your paper in this survey and repository, please feel free to submit a pull request or open an issue with the paper's title and a brief summary highlighting its key techniques. You can also contact us via email. Please let us know if you find out a mistake or have any suggestions! We greatly appreciate your feedback regarding this repository or survey!
+
+🌟 If you find this resource helpful for your work, please consider citing our research.
+```
+ @article{Zhang_2025,
+  title={A Comprehensive Survey on Multimodal RAG: All Combinations of Modalities as Input and Output},
+  url={http://dx.doi.org/10.36227/techrxiv.176341513.38473003/v1},
+  DOI={10.36227/techrxiv.176341513.38473003/v1},
+  publisher={Institute of Electrical and Electronics Engineers (IEEE)},
+  author={Rui Zhang and Chen Liu and Yixin Su and Ruixuan Li and Xuanjing Huang and Xuelong Li and Philip S Yu},
+  year={2025},
+  month=nov
+}
+```
+
