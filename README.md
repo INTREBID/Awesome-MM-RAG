@@ -1,3 +1,30 @@
+# Awesome-MM-RAG
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Project-Awesome--MM--RAG-blue.svg" alt="Project Badge" />
+  <img src="https://img.shields.io/github/stars/INTREBID/Awesome-MM-RAG?style=social" alt="GitHub Stars" />
+  <img src="https://img.shields.io/github/forks/INTREBID/Awesome-MM-RAG?style=social" alt="GitHub Forks" />
+  <img src="https://img.shields.io/github/license/INTREBID/Awesome-MM-RAG" alt="License" />
+  <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome" />
+  <img src="https://img.shields.io/badge/Made%20with-%F0%9F%A4%96%20AI-red.svg" alt="Made with AI" />
+</p>
+
+---
+
+> 🚀 **Awesome-MM-RAG** —— 一个面向多模态 RAG（Retrieval-Augmented Generation）领域的资源、论文与工具的精选列表，为研究者与开发者提供全面、系统、持续更新的参考资料。
+
+
+
+
+
+
+
+
+
+
+
+
+
 <h1 align="center">Awesome Multimodal RAG</h1>
 
 <div align='center'>
