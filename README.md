@@ -1,34 +1,21 @@
-# Awesome MM-RAG
+<h1 align="center">Awesome MM-RAG</h1>
 
----
+<div align="center">
 
-[![awesome](https://img.shields.io/badge/awesome-purple)](https://github.com/sindresorhus/awesome)
-[![Stars](https://img.shields.io/badge/Stars-130-black)](https://github.com/INTREBID/Awesome-MM-RAG/stargazers)
-[![Watchers](https://img.shields.io/badge/Watchers-8-black)](https://github.com/INTREBID/Awesome-MM-RAG/watchers)
-[![ast commit](https://img.shields.io/badge/ast_commit-green)](https://github.com/INTREBID/Awesome-MM-RAG/commits)
-[![november](https://img.shields.io/badge/november-lime)](https://github.com/INTREBID/Awesome-MM-RAG/commits)
-[![PRs](https://img.shields.io/badge/PRs-blue)](https://github.com/INTREBID/Awesome-MM-RAG/pulls)
-[![Welcome](https://img.shields.io/badge/Welcome-black)](https://github.com/INTREBID/Awesome-MM-RAG/graphs/contributors)
+![](https://awesome.re/badge.svg?logo=stylelint)
+![](https://img.shields.io/github/stars/INTREBID/Awesome-MM-RAG)
+![](https://img.shields.io/github/watchers/INTREBID/Awesome-MM-RAG)
+![](https://img.shields.io/github/last-commit/INTREBID/Awesome-MM-RAG?color=green)
+![](https://img.shields.io/badge/PRs-Welcome-blue)
+[![DOI](https://img.shields.io/badge/DOI-10.36227%2Ftechrxiv.176341513.38473003%2Fv1-yellow?logo=doi)](https://doi.org/10.36227/techrxiv.176341513.38473003/v1)
 
----
+</div>
 
-<p align="center">
-    <a href="https://doi.org/10.36227/techrxiv.176341513.38473003/v1">
-        <img src="https://img.shields.io/badge/DOI-10.36227/techrxiv.176341513.38473003/v1-yellowgreen" alt="DOI Badge">
-    </a>
-</p>
+<div align="center">
 
----
+**[<a href="https://doi.org/10.36227/techrxiv.176341513.38473003/v1">TechRxiv</a>]** **[<a href="#">LinkedIn</a>]**
 
-<p align="center">
-    <a href="https://doi.org/10.36227/techrxiv.176341513.38473003/v1">
-        [TechRxiv]
-    </a> 
-    </p>
-
----
-
-
+</div>
 
 
 
