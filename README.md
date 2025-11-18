@@ -1,24 +1,32 @@
-# Awesome-MM-RAG
+# Awesome MM-RAG
+
+---
+
+[![awesome](https://img.shields.io/badge/awesome-purple)](https://github.com/sindresorhus/awesome)
+[![Stars](https://img.shields.io/badge/Stars-130-black)](https://github.com/INTREBID/Awesome-MM-RAG/stargazers)
+[![Watchers](https://img.shields.io/badge/Watchers-8-black)](https://github.com/INTREBID/Awesome-MM-RAG/watchers)
+[![ast commit](https://img.shields.io/badge/ast_commit-green)](https://github.com/INTREBID/Awesome-MM-RAG/commits)
+[![november](https://img.shields.io/badge/november-lime)](https://github.com/INTREBID/Awesome-MM-RAG/commits)
+[![PRs](https://img.shields.io/badge/PRs-blue)](https://github.com/INTREBID/Awesome-MM-RAG/pulls)
+[![Welcome](https://img.shields.io/badge/Welcome-black)](https://github.com/INTREBID/Awesome-MM-RAG/graphs/contributors)
+
+---
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Project-Awesome--MM--RAG-blue.svg" alt="Project Badge" />
-  <img src="https://img.shields.io/github/stars/INTREBID/Awesome-MM-RAG?style=social" alt="GitHub Stars" />
-  <img src="https://img.shields.io/github/forks/INTREBID/Awesome-MM-RAG?style=social" alt="GitHub Forks" />
-  <img src="https://img.shields.io/github/license/INTREBID/Awesome-MM-RAG" alt="License" />
-  <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome" />
-  <img src="https://img.shields.io/badge/Made%20with-%F0%9F%A4%96%20AI-red.svg" alt="Made with AI" />
+    <a href="https://doi.org/10.36227/techrxiv.176341513.38473003/v1">
+        <img src="https://img.shields.io/badge/DOI-10.36227/techrxiv.176341513.38473003/v1-yellowgreen" alt="DOI Badge">
+    </a>
 </p>
 
 ---
 
-> 🚀 **Awesome-MM-RAG** —— 一个面向多模态 RAG（Retrieval-Augmented Generation）领域的资源、论文与工具的精选列表，为研究者与开发者提供全面、系统、持续更新的参考资料。
+<p align="center">
+    <a href="https://doi.org/10.36227/techrxiv.176341513.38473003/v1">
+        [TechRxiv]
+    </a> 
+    </p>
 
-
-
-
-
-
-
+---
 
 
 
