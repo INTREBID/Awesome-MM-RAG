@@ -24,11 +24,13 @@ This repository is for our survey paper:
 > <sup>1</sup>Huazhong University of Science and Technology, <sup>2</sup>Fudan University, <sup>3</sup>Institute of Artificial Intelligence (TeleAI) of China Telecom, <sup>4</sup>University of Illinois at Chicago 
 
 
-In this paper, we conduct a comprehensive survey of the most recent work on Multimodal RAG (MM-RAG) in the sense that it has a full coverage of almost all the combinations of modalities as input and output, whereas existing survey papers typically focus on one or two modalities. Based on different input-output modality combinations, we present a taxonomy of MM-RAG methods which gives us a much clearer picture of their key technical components.
+📚 In this paper, we conduct a comprehensive survey of the most recent work on **Multimodal RAG (MM-RAG)** in the sense that it has a full coverage of almost all the combinations of modalities as input and output, whereas existing survey papers typically focus on one or two modalities. Based on different input-output modality combinations, we present a **taxonomy** of MM-RAG methods which gives us a much clearer picture of their key technical components.
 
-Facilitated by such a taxonomy, we identify four essential stages of the workflow of MM-RAG, summarize common approaches to each stage, and discuss optimization strategies for each modality.
+⚙️ Facilitated by such a taxonomy, we identify **four essential stages** of the workflow of MM-RAG, summarize common approaches to each stage, and discuss **optimization strategies** for each modality.
 
-To provide a holistic understanding and practical guidance for building MM-RAG systems, we also discuss training strategies and evaluation methods of MM-RAG. Finally, we discuss various MM-RAG applications and future directions.
+🌐 To provide a **holistic understanding** and practical guidance for building MM-RAG systems, we also discuss **training strategies** and **evaluation methods** of MM-RAG. Finally, we discuss various **MM-RAG applications** and **future directions**.
+
+
 
 ---
 
