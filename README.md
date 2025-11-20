@@ -38,39 +38,29 @@ This repository is for our survey paper:
 
 ## Quick Index
 
-- [Definition — What's MM-RAG](#definition)
-<p align="center">
-<img src="assets/definition.png" width = "80%" alt="" align=center />
-</p>
-
 - [Taxonomy — MM-RAG Methods](#taxonomy)
 
 <p align="center">
 <img src="assets/taxonomy.png" width = "80%" alt="" align=center />
 </p>
 
-- [Workflow — MM-RAG Stages](#workflow)
-  - [Pre-Retrieval](#pre-retrieval)
-  - [Retrieval](#retrieval)
-  - [Augmentation](#augmentation)
-  - [Generation](#generation)
-
-<p align="center">
+- [Workflow — MM-RAG Stages](#workflow) (including Pre-Retrieval, Retrieval, Augmentation, Generation)
+<!-- <p align="center">
 <img src="assets/workflow.png" width = "80%" alt="" align=center />
-</p>
-<p align="center">
+</p> -->
+<!-- <p align="center">
 <img src="assets/workflow-tree.png" width = "80%" alt="" align=center />
-</p>
+</p> -->
 
-- [Training Strategy](#training-strategy)
-<p align="center">
+- [Training Strategy](#training-strategy) (including Parameter-Frozen Strategy, Parameter-Trainable Strategy)
+<!-- <p align="center">
 <img src="assets/training.png" width = "80%" alt="" align=center />
-</p>
+</p> -->
 
-- [Evaluation](#evaluation)
-<p align="center">
+- [Evaluation](#evaluation) (including Evaluaton Metrics and Benchmarks)
+<!-- <p align="center">
 <img src="assets/evaluation.png" width = "80%" alt="" align=center />
-</p>
+</p> -->
 
 ---
 
