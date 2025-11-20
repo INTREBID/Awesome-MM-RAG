@@ -40,9 +40,9 @@ This repository is for our survey paper:
 
 - [Taxonomy — MM-RAG Methods](#taxonomy)
 
-<p align="center">
+<!-- <p align="center">
 <img src="assets/taxonomy.png" width = "80%" alt="" align=center />
-</p>
+</p> -->
 
 - [Workflow — MM-RAG Stages](#workflow) (including Pre-Retrieval, Retrieval, Augmentation, Generation)
 <!-- <p align="center">
@@ -64,7 +64,7 @@ This repository is for our survey paper:
 
 ---
 
-### Contributing
+## Contributing and Citation
 
 The survey and the repository are **still work in progress** and will be updated regularly. 
 
