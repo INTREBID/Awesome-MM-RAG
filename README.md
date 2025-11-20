@@ -38,13 +38,13 @@ This repository is for our survey paper:
 
 ## Quick Index
 
-- [Taxonomy — MM-RAG Methods](#taxonomy)
+- [Taxonomy — From a perspective of different input-output modality combinations](#taxonomy)
 
 <!-- <p align="center">
 <img src="assets/taxonomy.png" width = "80%" alt="" align=center />
 </p> -->
 
-- [Workflow — MM-RAG Stages](#workflow) (including Pre-Retrieval, Retrieval, Augmentation, Generation)
+- [Workflow](#workflow) (including Pre-Retrieval, Retrieval, Augmentation, Generation)
 <!-- <p align="center">
 <img src="assets/workflow.png" width = "80%" alt="" align=center />
 </p> -->
