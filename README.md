@@ -272,6 +272,7 @@ This repository is for our survey paper:
         ↑ Back to Index ↑
     </a>
 </p>
+
 ## Workflow
 
 For a functional MM-RAG system, we identify four essential stages of its workflow:  ***pre-retrieval, retrieval, augmentation and generation*** . Retrieval and generation involve the retriever and generator, respectively. Pre-retrieval involves knowledge base and query preparation. Augmentation involves the preprocessing of the query and retrieved documents before they are fed into the generator. For each stage, we discuss common approaches and modality-specific optimization strategies, and summarize representative studies.
