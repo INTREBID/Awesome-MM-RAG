@@ -32,9 +32,9 @@ This repository is for our survey paper:
 
 <a name="readme-index"></a>
 
-## Quick Index
+## Overview
 
-- [Taxonomy — From a perspective of different input-output modality combinations](#Taxonomy — From a perspective of different input-output modality combinations)
+- [Taxonomy](#Taxonomy)
 
 <p align="center">
 <img src="assets/taxonomy.png" width = "80%" alt="" align=center />
