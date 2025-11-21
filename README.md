@@ -42,7 +42,7 @@ This repository is for our survey paper:
 
 - [Training Strategy](#Training-strategy) (including Parameter-Frozen Strategy, Parameter-Trainable Strategy)
 
-- [Evaluation and Benchmarks](#Evaluation and Benchmarks) (including Evaluaton Metrics and Benchmarks)
+- [Evaluation and Benchmarks](#Evaluation-and-Benchmarks) (including Evaluaton Metrics and Benchmarks)
 
 
 ---
