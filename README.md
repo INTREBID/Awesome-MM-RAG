@@ -1,13 +1,15 @@
 <h1 align="center">Awesome MM-RAG</h1>
 
-<div align="center">
-![](https://awesome.re/badge.svg?logo=stylelint)
-![](https://img.shields.io/github/stars/INTREBID/Awesome-MM-RAG)
-![](https://img.shields.io/github/watchers/INTREBID/Awesome-MM-RAG)
-![](https://img.shields.io/github/last-commit/INTREBID/Awesome-MM-RAG?color=green)
-![](https://img.shields.io/badge/PRs-Welcome-blue)
-[![DOI](https://img.shields.io/badge/DOI-10.36227%2Ftechrxiv.176341513.38473003%2Fv1-yellow?logo=doi)](https://doi.org/10.36227/techrxiv.176341513.38473003/v1)
-</div>
+<p align="center">
+  <img src="https://img.shields.io/badge/Project-Awesome--MM--RAG-blue.svg" alt="Project Badge" />
+  <img src="https://img.shields.io/github/stars/INTREBID/Awesome-MM-RAG?style=social" alt="GitHub Stars" />
+  <img src="https://img.shields.io/github/forks/INTREBID/Awesome-MM-RAG?style=social" alt="GitHub Forks" />
+  <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome" />
+  <img src="https://img.shields.io/badge/Made%20with-%F0%9F%A4%96%20AI-red.svg" alt="Made with AI" />
+  <a href="https://doi.org/10.36227/techrxiv.176341513.38473003/v1">
+    <img src="https://img.shields.io/badge/DOI-10.36227%2Ftechrxiv.176341513.38473003%2Fv1-orange?logo=doi" alt="DOI" />
+  </a>
+</p>
 
 <div align="center">
 [<a href="https://doi.org/10.36227/techrxiv.176341513.38473003/v1">TechRxiv</a>]
