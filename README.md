@@ -15,8 +15,8 @@
 </div>
 This repository is for our survey paper:
 
-> **[A Comprehensive Survey on Multimodal RAG: All Combinations of Modalities as Input and Output](https://doi.org/10.36227/techrxiv.176046306.66521015/v1)**
-> 
+> **[A Comprehensive Survey on Multimodal RAG: All Combinations of Modalities as Input and Output](https://doi.org/10.36227/techrxiv.176046306.66521015/v1)** 
+>
 > [Rui Zhang](https://www.ruizhang.info/)<sup>1</sup>, [Chen Liu](https://sdnylc.github.io/)<sup>1</sup>, [Yixin Su](https://ethanmock.github.io/yixinsu.github.io/)<sup>1</sup>, [Ruixuan Li](https://idc.hust.edu.cn/rxli/index.htm)<sup>1</sup>, [Xuanjing Huang](https://xuanjing-huang.github.io/)<sup>2</sup>, [Xuelong Li](http://xuelongli.cn/en.php)<sup>3</sup>, Philip S. Yu<sup>4</sup> 
 >
 > <sup>1</sup>Huazhong University of Science and Technology, <sup>2</sup>Fudan University, <sup>3</sup>Institute of Artificial Intelligence (TeleAI) of China Telecom, <sup>4</sup>University of Illinois at Chicago 
@@ -32,15 +32,16 @@ This repository is for our survey paper:
 
 <a name="readme-index"></a>
 
-## Overview
+## Quick Index
 
-- [Taxonomy](#Taxonomy)
+- [Taxonomy](#Taxonomy) (From a perspective of different input-output modality combinations)
 
 <p align="center">
 <img src="assets/taxonomy.png" width = "80%" alt="" align=center />
 </p>
 
 - [Workflow](#Workflow) (including Pre-Retrieval, Retrieval, Augmentation, Generation)
+
   <p align="center">
   <img src="assets/workflow.png" width = "80%" alt="" align=center />
   </p>
@@ -61,7 +62,49 @@ This repository is for our survey paper:
 
 ---
 
-## Taxonomy — From a perspective of different input-output modality combinations
+## Taxonomy
+
+### Image→Text
+
+| Paper                                                        | Task             | Code                                                |
+| ------------------------------------------------------------ | ---------------- | --------------------------------------------------- |
+| [![Publish](https://img.shields.io/badge/Conference-EMNLP_2023-blue)]()<br/>Re-vilm: Retrievalaugmented visual language model for  zero and few-shot image captioning [[paper]](https://arxiv.org/abs/2302.04858) | Image Captioning |                                                     |
+| Cross-modal retrieval and semantic refinement for  remote sensing image captioning [[paper]](https://www.mdpi.com/2072-4292/16/1/196) | Image Captioning |                                                     |
+| [![Publish](https://img.shields.io/badge/Conference-CVPR_2023-blue)]()<br/>Smallcap: lightweight image captioning prompted with  retrieval augmentation [[paper]](https://arxiv.org/abs/2209.15323) | Image Captioning | [[Code]](https://github.com/RitaRamo/smallcap)      |
+| [![Publish](https://img.shields.io/badge/Conference-ICML_2023-blue)]()<br/>Retrieval-augmented multimodal language modeling [[paper]](https://arxiv.org/abs/2211.12561) | Image Captioning |                                                     |
+| [![Publish](https://img.shields.io/badge/Conference-CBMI_2022-blue)]()<br/>Retrieval-augmented transformer for image captioning [[paper]](https://arxiv.org/abs/2207.13162) | Image Captioning |                                                     |
+| [![Publish](https://img.shields.io/badge/Conference-AAAI_2021-blue)]()<br/>Memory-augmented image captioning [[paper]](https://arxiv.org/abs/2403.03715) | Image Captioning |                                                     |
+| [![Publish](https://img.shields.io/badge/Conference-EACL_2023-blue)]()<br/>Retrieval-augmented image captioning [[paper]](https://arxiv.org/abs/2302.08268) | Image Captioning |                                                     |
+| [![Publish](https://img.shields.io/badge/Conference-COLING_2022-blue)]()<br/>Deltanet: Conditional medical report generation for  COVID-19 diagnosis [[paper]](https://aclanthology.org/2022.coling-1.261/) | Image Captioning |                                                     |
+| Retrieval-enhanced adversarial training with dynamic  memory-augmented attention for image paragraph captioning [[paper]](https://www.sciencedirect.com/science/article/abs/pii/S0950705120308595) | Image Captioning | [[Code]](https://github.com/anonymous-caption/RAMP) |
+| [![Publish](https://img.shields.io/badge/Conference-NAACL_2025-blue)]()<br/>Fact-aware multimodal retrieval augmentation for  accurate medical radiology report generation [[paper]](https://arxiv.org/abs/2407.15268) | Image Captioning | [[Code]](https://github.com/cxcscmu/FactMM-RAG)     |
+| [![Publish](https://img.shields.io/badge/Conference-EMNLP_2021-blue)]()<br/>Retrieval, analogy, and composition: A framework for  compositional generalization in image captioning [[paper]](https://aclanthology.org/2021.findings-emnlp.171/) | Image Captioning |                                                     |
+
+<p align="right" style="font-size: 14px; color: #555; margin-top: 20px;">
+    <a href="#readme-index" style="text-decoration: none; color: #007bff; font-weight: bold;">
+        ↑ Back to Index ↑
+    </a>
+</p>
+
+### Text→Image
+
+| Paper                                                        | Task             | Code                                                         |
+| ------------------------------------------------------------ | ---------------- | ------------------------------------------------------------ |
+| [![Publish](https://img.shields.io/badge/Conference-ECCV_2020-blue)]()<br/>RetrieveGAN:   Image Synthesis via Differentiable Patch Retrieval  [[paper]](https://arxiv.org/abs/2007.08513) | Image Generation |                                                              |
+| [![Publish](https://img.shields.io/badge/Conference-COLING_2025-blue)]()<br/>FineRAG:   Fine-grained Retrieval-Augmented Text-to-Image Generation [[paper]](https://aclanthology.org/2025.coling-main.741.pdf) | Image Generation |                                                              |
+| ImageRAG:   Dynamic Image Retrieval for Reference-Guided Image Generation [[paper]](https://arxiv.org/abs/2502.09411) | Image Generation | [[Code]](https://github.com/rotem-shalev/ImageRAG)           |
+| X&Fuse:   Fusing Visual Information in Text-to-Image Generation [[paper]](https://arxiv.org/abs/2303.01000) | Image Generation |                                                              |
+| [![Publish](https://img.shields.io/badge/Conference-ICLR_2025-blue)]()<br/>TIGeR:   Unifying Text-to-Image Generation and Retrieval with Large Multimodal Models  [[paper]](https://arxiv.org/abs/2406.05814) | Image Generation | [[Code]](https://github.com/LgQu/TIGeR)                      |
+| [![Publish](https://img.shields.io/badge/Conference-ICLR_2023-blue)]()<br/>Re-Imagen:   Retrieval-Augmented Text-to-Image Generator  [[paper]](https://arxiv.org/abs/2209.14491) | Image Generation |                                                              |
+| [![Publish](https://img.shields.io/badge/Conference-NIPS_2022-blue)]()<br/>Retrieval-augmented   diffusion models [[paper]](https://proceedings.neurips.cc/paper_files/paper/2022/file/62868cc2fc1eb5cdf321d05b4b88510c-Paper-Conference.pdf) | Image Generation | [[Code]](https://github.com/CompVis/retrieval-augmented-diffusion-models) |
+| [![Publish](https://img.shields.io/badge/Conference-ICLR_2023-blue)]()<br/>KNN-Diffusion:   Image Generation via Large-Scale Retrieval [[paper]](https://arxiv.org/abs/2204.02849) | Image Generation |                                                              |
+| [![Publish](https://img.shields.io/badge/Conference-BMVC_2022-blue)]()<br/>Memory-Driven Text-to-Image Generation [[paper]](https://arxiv.org/abs/2208.07022) | Image Generation |                                                              |
+
+<p align="right" style="font-size: 14px; color: #555; margin-top: 20px;">
+    <a href="#readme-index" style="text-decoration: none; color: #007bff; font-weight: bold;">
+        ↑ Back to Index ↑
+    </a>
+</p>
 
 ### Text+Image→Text
 
@@ -85,35 +128,11 @@ This repository is for our survey paper:
 | [![Publish](https://img.shields.io/badge/Conference-NIPS_2023-blue)]()<br/>Fine-grained late-interaction multi-modal retrieval  for retrieval augmented visual question answering [[paper]](https://arxiv.org/abs/2309.17133) | Visual QA     | [[Code]](https://github.com/LinWeizheDragon/Retrieval-Augmented-Visual-Question-Answering) |
 | [![Publish](https://img.shields.io/badge/Conference-ICLR_2025-blue)]()<br/>MMed-RAG: Versatile Multimodal RAG System for Medical  Vision Language Models [[paper]](https://arxiv.org/abs/2410.13085) | Visual QA     | [[Code]](https://github.com/richard-peng-xia/MMed-RAG)       |
 
-### Image→Text
-
-| Paper                                                        | Task             | Code                                                |
-| ------------------------------------------------------------ | ---------------- | --------------------------------------------------- |
-| [![Publish](https://img.shields.io/badge/Conference-EMNLP_2023-blue)]()<br/>Re-vilm: Retrievalaugmented visual language model for  zero and few-shot image captioning [[paper]](https://arxiv.org/abs/2302.04858) | Image Captioning |                                                     |
-| Cross-modal retrieval and semantic refinement for  remote sensing image captioning [[paper]](https://www.mdpi.com/2072-4292/16/1/196) | Image Captioning |                                                     |
-| [![Publish](https://img.shields.io/badge/Conference-CVPR_2023-blue)]()<br/>Smallcap: lightweight image captioning prompted with  retrieval augmentation [[paper]](https://arxiv.org/abs/2209.15323) | Image Captioning | [[Code]](https://github.com/RitaRamo/smallcap)      |
-| [![Publish](https://img.shields.io/badge/Conference-ICML_2023-blue)]()<br/>Retrieval-augmented multimodal language modeling [[paper]](https://arxiv.org/abs/2211.12561) | Image Captioning |                                                     |
-| [![Publish](https://img.shields.io/badge/Conference-CBMI_2022-blue)]()<br/>Retrieval-augmented transformer for image captioning [[paper]](https://arxiv.org/abs/2207.13162) | Image Captioning |                                                     |
-| [![Publish](https://img.shields.io/badge/Conference-AAAI_2021-blue)]()<br/>Memory-augmented image captioning [[paper]](https://arxiv.org/abs/2403.03715) | Image Captioning |                                                     |
-| [![Publish](https://img.shields.io/badge/Conference-EACL_2023-blue)]()<br/>Retrieval-augmented image captioning [[paper]](https://arxiv.org/abs/2302.08268) | Image Captioning |                                                     |
-| [![Publish](https://img.shields.io/badge/Conference-COLING_2022-blue)]()<br/>Deltanet: Conditional medical report generation for  COVID-19 diagnosis [[paper]](https://aclanthology.org/2022.coling-1.261/) | Image Captioning |                                                     |
-| Retrieval-enhanced adversarial training with dynamic  memory-augmented attention for image paragraph captioning [[paper]](https://www.sciencedirect.com/science/article/abs/pii/S0950705120308595) | Image Captioning | [[Code]](https://github.com/anonymous-caption/RAMP) |
-| [![Publish](https://img.shields.io/badge/Conference-NAACL_2025-blue)]()<br/>Fact-aware multimodal retrieval augmentation for  accurate medical radiology report generation [[paper]](https://arxiv.org/abs/2407.15268) | Image Captioning | [[Code]](https://github.com/cxcscmu/FactMM-RAG)     |
-| [![Publish](https://img.shields.io/badge/Conference-EMNLP_2021-blue)]()<br/>Retrieval, analogy, and composition: A framework for  compositional generalization in image captioning [[paper]](https://aclanthology.org/2021.findings-emnlp.171/) | Image Captioning |                                                     |
-
-### Text→Image
-
-| Paper                                                        | Task             | Code                                                         |
-| ------------------------------------------------------------ | ---------------- | ------------------------------------------------------------ |
-| [![Publish](https://img.shields.io/badge/Conference-ECCV_2020-blue)]()<br/>RetrieveGAN:   Image Synthesis via Differentiable Patch Retrieval  [[paper]](https://arxiv.org/abs/2007.08513) | Image Generation |                                                              |
-| [![Publish](https://img.shields.io/badge/Conference-COLING_2025-blue)]()<br/>FineRAG:   Fine-grained Retrieval-Augmented Text-to-Image Generation [[paper]](https://aclanthology.org/2025.coling-main.741.pdf) | Image Generation |                                                              |
-| ImageRAG:   Dynamic Image Retrieval for Reference-Guided Image Generation [[paper]](https://arxiv.org/abs/2502.09411) | Image Generation | [[Code]](https://github.com/rotem-shalev/ImageRAG)           |
-| X&Fuse:   Fusing Visual Information in Text-to-Image Generation [[paper]](https://arxiv.org/abs/2303.01000) | Image Generation |                                                              |
-| [![Publish](https://img.shields.io/badge/Conference-ICLR_2025-blue)]()<br/>TIGeR:   Unifying Text-to-Image Generation and Retrieval with Large Multimodal Models  [[paper]](https://arxiv.org/abs/2406.05814) | Image Generation | [[Code]](https://github.com/LgQu/TIGeR)                      |
-| [![Publish](https://img.shields.io/badge/Conference-ICLR_2023-blue)]()<br/>Re-Imagen:   Retrieval-Augmented Text-to-Image Generator  [[paper]](https://arxiv.org/abs/2209.14491) | Image Generation |                                                              |
-| [![Publish](https://img.shields.io/badge/Conference-NIPS_2022-blue)]()<br/>Retrieval-augmented   diffusion models [[paper]](https://proceedings.neurips.cc/paper_files/paper/2022/file/62868cc2fc1eb5cdf321d05b4b88510c-Paper-Conference.pdf) | Image Generation | [[Code]](https://github.com/CompVis/retrieval-augmented-diffusion-models) |
-| [![Publish](https://img.shields.io/badge/Conference-ICLR_2023-blue)]()<br/>KNN-Diffusion:   Image Generation via Large-Scale Retrieval [[paper]](https://arxiv.org/abs/2204.02849) | Image Generation |                                                              |
-| [![Publish](https://img.shields.io/badge/Conference-BMVC_2022-blue)]()<br/>Memory-Driven Text-to-Image Generation [[paper]](https://arxiv.org/abs/2208.07022) | Image Generation |                                                              |
+<p align="right" style="font-size: 14px; color: #555; margin-top: 20px;">
+    <a href="#readme-index" style="text-decoration: none; color: #007bff; font-weight: bold;">
+        ↑ Back to Index ↑
+    </a>
+</p>
 
 ### Audio→Text
 
@@ -121,6 +140,12 @@ This repository is for our survey paper:
 | ------------------------------------------------------------ | ---------------- | ------------------------------------------- |
 | [![Publish](https://img.shields.io/badge/Conference-ICASSP_2024-blue)]()<br/>RECAP:   Retrieval-Augmented Audio Captioning [[paper]](https://arxiv.org/abs/2309.09836) | Audio Captioning | [[Code]](https://github.com/Sreyan88/RECAP) |
 | [![Publish](https://img.shields.io/badge/Conference-ICASSP_2021-blue)]()<br/>Audio   Captioning using Pre-Trained Large-Scale Language Model Guided by Audio-based   Similar Caption Retrieval [[paper]](https://arxiv.org/abs/2012.07331) | Audio Captioning |                                             |
+
+<p align="right" style="font-size: 14px; color: #555; margin-top: 20px;">
+    <a href="#readme-index" style="text-decoration: none; color: #007bff; font-weight: bold;">
+        ↑ Back to Index ↑
+    </a>
+</p>
 
 ### Text→Audio
 
@@ -132,24 +157,18 @@ This repository is for our survey paper:
 | [![Publish](https://img.shields.io/badge/Conference-Interspeech_2024-blue)]()<br/>Retrieval   augmented generation in prompt-based text-to-speech synthesis with   context-aware contrastive language-audio pretraining [[paper]](https://arxiv.org/abs/2406.03714) | Audio Generation | [[Code]](https://happylittlecat2333.github.io/interspeech2024-RAG/) |
 | [![Publish](https://img.shields.io/badge/Conference-Interspeech_2024-blue)]()<br/>Retrieval-augmented classifier guidance for audio generation | Audio Generation |                                                              |
 
+<p align="right" style="font-size: 14px; color: #555; margin-top: 20px;">
+    <a href="#readme-index" style="text-decoration: none; color: #007bff; font-weight: bold;">
+        ↑ Back to Index ↑
+    </a>
+</p>
+
 ### Video→Text
 
 | Paper                                                        | Task             | Code                                                    |
 | ------------------------------------------------------------ | ---------------- | ------------------------------------------------------- |
 | [![Publish](https://img.shields.io/badge/Conference-CVPR_2024-blue)]()<br/>Retrieval-augmented   egocentric video captioning [[paper]](https://arxiv.org/abs/2401.00789) | Video Captioning | [[Code]](https://github.com/Jazzcharles/Egoinstructor/) |
 | [![Publish](https://img.shields.io/badge/Conference-EMNLP_2018-blue)]()<br/>Incorporating   background knowledge into video description generation [[paper]](https://aclanthology.org/D18-1433/) | Video Captioning |                                                         |
-
-### Video+Text→Text
-
-| Paper                                                        | Task     | Code                                                  |
-| ------------------------------------------------------------ | -------- | ----------------------------------------------------- |
-| [![Publish](https://img.shields.io/badge/Conference-CVPRW_2024-blue)]()<br/>ViTA:   An Efficient Video-to-Text Algorithm using VLM for RAG-based Video Analysis   System [[paper]](https://openaccess.thecvf.com/content/CVPR2024W/MAR/papers/Arefeen_ViTA_An_Efficient_Video-to-Text_Algorithm__using_VLM_for_RAG-based_CVPRW_2024_paper.pdf) | Video QA |                                                       |
-| [![Publish](https://img.shields.io/badge/Conference-CVPR_2023-blue)]()<br/>Retrieving-to-Answer:   Zero-Shot Video Question Answering with Frozen Large Language Models [[paper]](https://arxiv.org/abs/2306.11732) | Video QA |                                                       |
-| [![Publish](https://img.shields.io/badge/Conference-CIKM_2024-blue)]()<br/>iRAG:   Advancing RAG for Videos with an Incremental Approach [[paper]](https://arxiv.org/abs/2404.12309) | Video QA |                                                       |
-| [![Publish](https://img.shields.io/badge/Conference-TOMCCAP_2023-blue)]()<br/>Retrieval   augmented convolutional encoder-decoder networks for video captioning [[paper]](https://dl.acm.org/doi/10.1145/3539225) | Video QA |                                                       |
-| [![Publish](https://img.shields.io/badge/Conference-ACL_2025-blue)]()<br/>VideoRAG:   Retrieval-Augmented Generation over Video Corpus [[paper]](https://arxiv.org/abs/2501.05874) | Video QA | [[Code]](https://github.com/starsuzi/VideoRAG)        |
-| [![Publish](https://img.shields.io/badge/Conference-NIPS_2025-blue)]()<br/>Video-RAG:   Visually-aligned Retrieval-Augmented Long Video Comprehension [[paper]](https://arxiv.org/abs/2411.13093) | Video QA | [[Code]](http://github.com/Leon1207/Video-RAG-master) |
-| VideoRAG:   Retrieval-Augmented Generation with Extreme Long-Context Videos [[paper]](https://arxiv.org/abs/2502.01549) | Video QA | [[Code]](https://github.com/HKUDS/VideoRAG)           |
 
 <p align="right" style="font-size: 14px; color: #555; margin-top: 20px;">
     <a href="#readme-index" style="text-decoration: none; color: #007bff; font-weight: bold;">
@@ -174,6 +193,24 @@ This repository is for our survey paper:
 | Paper                                                        | Task                      | Code                                           |
 | ------------------------------------------------------------ | ------------------------- | ---------------------------------------------- |
 | [![Publish](https://img.shields.io/badge/Conference-NIPS_2025-blue)]()<br/>MotionRAG:   Motion Retrieval-Augmented Image-to-Video Generation [[paper]](https://arxiv.org/abs/2509.26391) | Image-to-Video Generation | [[Code]](https://github.com/MCG-NJU/MotionRAG) |
+
+<p align="right" style="font-size: 14px; color: #555; margin-top: 20px;">
+    <a href="#readme-index" style="text-decoration: none; color: #007bff; font-weight: bold;">
+        ↑ Back to Index ↑
+    </a>
+</p>
+
+### Video+Text→Text
+
+| Paper                                                        | Task     | Code                                                  |
+| ------------------------------------------------------------ | -------- | ----------------------------------------------------- |
+| [![Publish](https://img.shields.io/badge/Conference-CVPRW_2024-blue)]()<br/>ViTA:   An Efficient Video-to-Text Algorithm using VLM for RAG-based Video Analysis   System [[paper]](https://openaccess.thecvf.com/content/CVPR2024W/MAR/papers/Arefeen_ViTA_An_Efficient_Video-to-Text_Algorithm__using_VLM_for_RAG-based_CVPRW_2024_paper.pdf) | Video QA |                                                       |
+| [![Publish](https://img.shields.io/badge/Conference-CVPR_2023-blue)]()<br/>Retrieving-to-Answer:   Zero-Shot Video Question Answering with Frozen Large Language Models [[paper]](https://arxiv.org/abs/2306.11732) | Video QA |                                                       |
+| [![Publish](https://img.shields.io/badge/Conference-CIKM_2024-blue)]()<br/>iRAG:   Advancing RAG for Videos with an Incremental Approach [[paper]](https://arxiv.org/abs/2404.12309) | Video QA |                                                       |
+| [![Publish](https://img.shields.io/badge/Conference-TOMCCAP_2023-blue)]()<br/>Retrieval   augmented convolutional encoder-decoder networks for video captioning [[paper]](https://dl.acm.org/doi/10.1145/3539225) | Video QA |                                                       |
+| [![Publish](https://img.shields.io/badge/Conference-ACL_2025-blue)]()<br/>VideoRAG:   Retrieval-Augmented Generation over Video Corpus [[paper]](https://arxiv.org/abs/2501.05874) | Video QA | [[Code]](https://github.com/starsuzi/VideoRAG)        |
+| [![Publish](https://img.shields.io/badge/Conference-NIPS_2025-blue)]()<br/>Video-RAG:   Visually-aligned Retrieval-Augmented Long Video Comprehension [[paper]](https://arxiv.org/abs/2411.13093) | Video QA | [[Code]](http://github.com/Leon1207/Video-RAG-master) |
+| VideoRAG:   Retrieval-Augmented Generation with Extreme Long-Context Videos [[paper]](https://arxiv.org/abs/2502.01549) | Video QA | [[Code]](https://github.com/HKUDS/VideoRAG)           |
 
 <p align="right" style="font-size: 14px; color: #555; margin-top: 20px;">
     <a href="#readme-index" style="text-decoration: none; color: #007bff; font-weight: bold;">
