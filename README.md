@@ -159,7 +159,7 @@ This repository is for our survey paper:
 
 | Paper                                                        | Task             | Code                                                   |
 | ------------------------------------------------------------ | ---------------- | ------------------------------------------------------ |
-| [![Publish]([https://img.shields.io/badge/Conference-ECCV-2024-blue](https://img.shields.io/badge/Conference-ECCV_2024-blue))]()<br/>Animate-A-Story:   Storytelling with Retrieval-Augmented Video Generation [[paper]](https://arxiv.org/abs/2307.06940) | Video Generation | [[Code]](https://github.com/AILab-CVC/Animate-A-Story) |
+| [![Publish](https://img.shields.io/badge/Conference-ECCV_2024-blue)<br/>Animate-A-Story:   Storytelling with Retrieval-Augmented Video Generation [[paper]](https://arxiv.org/abs/2307.06940) | Video Generation | [[Code]](https://github.com/AILab-CVC/Animate-A-Story) |
 
 <p align="right" style="font-size: 14px; color: #555; margin-top: 20px;">
     <a href="#readme-index" style="text-decoration: none; color: #007bff; font-weight: bold;">
